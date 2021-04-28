@@ -2,21 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>Home</title>
-  <style>
-   aside {
-      float: left;
-      background-color: lightgrey;
-   }
-
-    footer {
-      height: 150px;
-      background-image: url(./img/footerImage.jpg);
-      text-align: center;
-    }
-  </style>
 </head>
 <body>
+  <div class="grid-container">
+    <div class="item1">
   <header>
   <h1><img src="./img/archeryAcademy-logo-color.png" alt="color logo">Home</h1>
     <nav>
@@ -24,13 +15,20 @@
       <a href="instructors.html">Instructors</a>
     </nav>
   </header>
+</div>
+<div class="item2">
   <aside>
     <p>Straight to the Point Archery</p>
     <p>528 Nock Point Ln</p>
     <p>Tacoma, WA 98412</p>
     <p>archery-education@example.com</p>
     <p>(253)555-1010</p>
+    <video src="./video/160323_50_3BullsCloseup9_1080p.mov" width="250" height="200" controls>
+Your browser does not support video
+</video>
   </aside>
+</div>
+<div class="item3">
   <section>
     <h2>Services:</h2>
 	<h3>Classes:</h3>
@@ -82,16 +80,25 @@ Equipment will be provided with exception of safety kit.</p>
 <p>Straight to the Point Archery’s staff has decades of experience in the archery industry. We are committed to educating you with any questions that you may have.</p>
 
 <h2>About the Client:</h2>
-<p>
+<div class="flex-container">
   <img src="./img/instructor-bio-image4.png" alt="Giap Nguyen">
+  <p>
 	Giap Nguyen started Straight to the Point Archery in 2005. He's an avid and accomplished archer himself, having competed with the United States Archery Team in the 2000 Summer Olympics. He has three children, and  started Straight to the Point in part because he was not satisfied with the archery eduction options for them in Tacoma. After The Hunger Games books and movies came out, he noticed a surge in popularity of archery among young people, especially young women, and the business has been booming ever since.
 </p>
+</div>
 
 <h3>About the Users:</h3>
   <p>
     Giap tells you that people who use the site are mostly current and prospective students. They're interested in learning about the facilities and services available, as well as being reminded of the class schedule and location.
   </p>
+
+  <h3>Nondiscriminatory Policy:</h3>
+  <p>
+    Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.
+  </p>
 </section>
+</div>
+<div class="item4">
   <footer>
     <img src="./img/archeryAcademy-logo-white.png" alt="White Logo">
     <nav>
@@ -99,5 +106,7 @@ Equipment will be provided with exception of safety kit.</p>
       <a href="instructors.html">Instructors</a>
     </nav>
   </footer>
+</div>
+</div>
 </body>
 </html>
